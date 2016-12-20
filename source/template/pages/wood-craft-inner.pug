@@ -1,0 +1,135 @@
+extends ../_template
+
+block variables
+  - var title = 'wood-craft-inner'
+
+block content
+    div.single-page-wrapper
+        div.single-page-container        
+            
+            div.single-page-content
+                div.single-page-left
+                    h1.wood-craft-h1 Строительство
+                    div.this-phone.this-phone--inner
+                        i(class="fa fa-phone" aria-hidden="true")
+                        span +7(928)332-45-88
+                        i(class="fa fa-phone" aria-hidden="true")
+                        span +7(928)400-15-03
+                        a.call-to-wrapper(href="#" alt="#")
+                            div.call-to-action составить смету
+                //- div.single-page-header-sticky
+                //-     div.wood-craft-h1 Строительство
+                //-     div.this-phone.this-phone--inner
+                //-         i(class="fa fa-phone" aria-hidden="true")
+                //-         span +7(928)332-45-88
+                //-     div.this-phone.this-phone--inner
+                //-         i(class="fa fa-phone" aria-hidden="true")
+                //-         span +7(928)400-15-03
+                //-     div.call-to-action call to action
+                    //- div.this-phone.this-phone--inner
+                        
+                        span.call-to-action call to action
+                div.wood-title 
+                    h4.h4 Дом 120 м
+                        sup 2                   
+                    p в&nbspсредиземноморском стиле c кухней-гостиной 29м
+                        sup 2
+                        |&nbsp, 3 спальнями, 2 санузлами и большой террасой с выходом из спальни 2-го этажа. За прямоугольным главным фасадом скрывается практичная двухскатная кровля. Холлы первого и второго этажа имеют естествееное освещение. Ванная комната второго этажа площадью 8м
+                        sup 2
+                        |&nbspтакже предусматривает возможность установки окна.
+
+                include ../common/slider-inner
+                table(border="1" class = "table-inner")
+                        caption Дом 120 м2 в&nbspсредиземноморском стиле за&nbsp2,6 млн. руб.
+                        tr.tr-1
+                            td Этапы строительства
+                            td Виды работ
+                            td Варианты исполнения
+                            td Базовая стоимость
+                        
+                        tr
+                            th(rowspan="3") Нулевой цикл
+                            td Котлован
+                            td(rowspan="3") Монолитный железобетон
+                            td(rowspan="3") 657 т.р.
+                        tr
+                            td Ленточный фундамент                          
+                        tr
+                            td Плита перекрытия I этажа                            
+
+                        tr
+                            th(rowspan="3") Монолитный каркас
+                            td Пилоны  
+                            td(rowspan="3") Монолитный железобетон
+                            td(rowspan="3") 589 т.р.
+                        tr
+                            td Сердечники, перемычки
+                        tr
+                            td Плита перекрытия II этажа
+
+                        tr
+                            th(rowspan="3") Стены
+                            td Блочное заполнение стен  
+                            td Керамзитовый блок
+                                br
+                                | Газобетонный блок
+                                br
+                                |Керамический кирпич  
+                            td(rowspan="3") 768 т.р.
+                        tr
+                            td Утепление фасада
+                            td Фасадный пенополистирол Каменная вата
+                            //- td 768 nh/h
+                        tr
+                            td Отделка фасада
+                            td Декоративная штукатурка 
+                                br
+                                |Окраска
+                            //- td 768
+
+                        tr
+                            th(rowspan="2") Кровля и окна
+                            td Кровельные работы 
+                            td Металлочерепица
+                                br 
+                                |Битумная черепица 
+                                br 
+                                |Натуральная черепица
+                            td(rowspan="2") 566 т.р.
+                        tr
+                            td Установка окон                        
+                            td Деревянные окна
+                                br
+                                |Пластиковые окна
+
+                        tr.tr-4
+                            th(colspan = "3") Всего
+                            td 2 580 т.р.                       
+                        
+                                
+                
+    div.single-page-footer
+        .single-page-f-wrapper
+            div.footer-left
+                h2 FIRST GROUP
+                div.copyright &copy 2016
+                    br
+                    | все права защищены
+                div.dev-link разработка сайта
+                    br
+                    a(href = 'https://www.rudik.info') Максим Рудик
+            div.footer-right        
+                include ../common/_inner-pages-header
+            div.footer-mid
+                div.footer-mid-contacts строительство
+                            br
+                            i(class="fa fa-phone" aria-hidden="true")
+                            span +7(928)332-45-88
+                div.footer-mid-contacts столярная мастерская
+                            br
+                            i(class="fa fa-phone" aria-hidden="true")
+                            span +7(928)665-31-07
+                div.footer-mid-contacts макеты, дизайн, резьба
+                            br
+                            i(class="fa fa-phone" aria-hidden="true")
+                            span +7(967)651-00-15

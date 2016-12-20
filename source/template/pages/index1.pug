@@ -1,0 +1,16 @@
+extends ../_template
+
+block variables
+    - var title = 'Home page'
+  
+
+block content
+  include ../common/_header
+  div.inner-wrapper
+    include ../common/_sidebar
+    include ../common/_link-display    
+    div.gradient-border
+    div.slider-container
+        include ../common/_slider-index
+  include ../common/_footer
+  

@@ -1,0 +1,48 @@
+extends ../_template
+
+block content
+    div.demo
+        div.logo-container.logo-container--mobile
+            //- h2 FG
+            svg.logo-frame-svg(height = "50px"  width = "50px")
+                polyline(points="30,5 5,5 5,45 45,45, 45,19" fill="white" stroke="tomato" stroke-width="6")
+                text(x="30" y="30" fill="#333" font-size="20") FG
+            //- div.logo-frame.logo-frame--moblie
+            //-     div.lofo-frame-add.logo-add__mobile
+        div.demo__overlay
+        div.demo__menu-btn
+            div.demo__menu-btn-line
+            div.demo__menu-btn-line
+            div.demo__menu-btn-line
+            div.demo__menu-btn-line.demo__menu-btn__hidden
+        div.demo__menu-bg 
+        div.demo__menu-items
+            div(class = "demo__menu-item" data-section = "home") Столярная мастерская
+            div(class = "demo__menu-item" data-section = "sourse") Строительство
+            div(class = "demo__menu-item" data-section = "demos") Макеты
+            div(class = "demo__menu-item" data-section = "about") Дизайн интерьеров
+            div(class = "demo__menu-item" data-section = "contacts") Контакты
+            
+        div(class="demo__section demo__section--home")
+            h2.demo__section-heading Главная
+            p.demo__description Just click menu button
+        div(class = "demo__section demo__section--sourse active-section")
+            h2.demo__section-heading Столярная мастерская
+            p.demo__description Based on
+                a.demo__link(href = "https://dribble.com") this dribble shot
+            | by Gal Shir
+        div(class = "demo__section demo__section--demos")
+            h2.demo__section-heading 3Д Резьба(металл, дерево)
+            p.demo__description Check my
+                a.demo__link(href = "https://dribble.com") other demos
+            
+        div(class = "demo__section demo__section--about")
+            h2.demo__section-heading Стрижка собак
+            p.demo__description 
+                a.demo__link(href = "http://rudik.info") this site
+
+        div(class = "demo__section demo__section--contacts")
+            h2.demo__section-heading Ришельевская 6, кв.7
+            p.demo__description как шутили в Одессе
+                a.demo__link(href = "http://rudik.info") this site
+            

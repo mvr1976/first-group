@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g><path d="M21,18h-2V5c0-0.6-0.4-1-1-1H5V2c0-0.6-0.4-1-1-1S3,1.4,3,2v2H1C0.4,4,0,4.4,0,5s0.4,1,1,1h2v13c0,0.6,0.4,1,1,1h13v2   c0,0.6,0.4,1,1,1s1-0.4,1-1v-2h2c0.6,0,1-0.4,1-1S21.6,18,21,18z M5,18V6h12v12H5z"/>
+			<rect height="2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 5.8426 30.131)" width="1" x="8.7" y="12.9"/>
+			<rect height="2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -0.9125 32.9277)" width="1" x="5.9" y="15.7"/>
+			<rect height="1" transform="matrix(0.7076 -0.7066 0.7066 0.7076 -1.5213 12.8432)" width="2" x="13.8" y="7.8"/>
+			<rect height="2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 12.5984 27.3327)" width="1" x="11.5" y="10.1"/>
+		<path d="M23.9-0.8c-0.2-0.2-0.5-0.2-0.7,0l-1,1l0.7,0.7l1-1C24-0.3,24-0.6,23.9-0.8z"/>
+			<rect height="2" transform="matrix(0.7071 0.7071 -0.7071 0.7071 7.8446 -13.6113)" width="1" x="19.9" y="1.7"/>
+	</g>
+</svg>

@@ -1,0 +1,48 @@
+extends ../_template
+
+block variables
+  - var title = 'wood-craft'
+
+block content
+    div.inner-pages-container
+        
+        include ../common/_inner-pages-header
+        include ../common/_wood-craft-subheader        
+        ul.samples-container
+            a.sample__link(href = 'wood-craft-inner.html')
+                li.sample__item.animated
+                    img(src="assets/img/house120.JPG" border="0" alt="savepic.ru")
+
+                    div.sample__title
+                        h4
+                            i(class="fa fa-home fa-2x" aria-hidden="true")
+                            | 2-х эт. дом за 2,4 млн. рублей
+                        p Дом в средиземноморском стиле площадью 120 м2 с 2 санузлами и кухней-гостиной 29 м2.
+                        a подробнее
+            a.sample__link(href = '#')
+                li.sample__item.animated
+                    img(src="assets/img/constr2.jpg" border="0" alt="savepic.ru") 
+                    div.sample__title
+                        h4
+                            i(class="fa fa-home fa-2x" aria-hidden="true")
+                            | Гостевой дом за 5,5 млн. рублей
+                        p Мини-гостиница на 9 номеров площадью 320 м2 с 2 санузлами и кухней-гостиной 29 м2.
+                        a подробнее
+            a.sample__link(href = '#')
+                li.sample__item.animated
+                    img(src="assets/img/klinker.jpg" border="0" alt = "savepic.ru")
+                    div.sample__title
+                        h4
+                            i(class="fa fa-home fa-2x" aria-hidden="true")
+                            | 2-х эт. дом за 3,7 млн. рублей
+                        p Дом с облицовкой из клинкерного кирпича площадью 200 м2 с фонтаном в подвале.
+                        a подробнее
+            //- a.sample__link(href = '#')
+            //-     li.sample__item.animated перголы
+            //- a.sample__link(href = '#')
+            //-     li.sample__item.animated арки
+            //- a.sample__link(href = '#')
+            //-     li.sample__item.animated табуретки
+            
+
+

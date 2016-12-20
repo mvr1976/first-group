@@ -1,0 +1,49 @@
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin absolutPos(){
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+@mixin desktop{
+    @media screen and (max-width : 1200px){
+        @content;
+    }
+}
+@mixin laptop{
+    @media screen and (max-width : 992px){
+        @content;
+    }
+}
+@mixin tablets{
+    @media screen and (max-width : 768px){
+        @content;
+    }
+}
+
+@mixin phones{
+    @media screen and (max-width : 480px){
+        @content;
+    }
+}
+@mixin inner-pages-slides{
+    @media screen and (max-width : 1030px){
+        @content;
+    }
+}
+@mixin logo-fix{
+    @media screen and(max-width: 1030px){
+        @content;
+    }
+}

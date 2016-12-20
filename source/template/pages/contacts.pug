@@ -1,0 +1,31 @@
+extends ../_template
+
+block variables
+  - var title = 'contacts'
+
+block content
+    div.inner-pages-container    
+            include ../common/_inner-pages-header
+            div.contacts-map-wrapper
+                div.contacts-map(id = 'map')
+                div.contacts-board
+                    h3.contacts__title Адрес
+                    p 345000 Краснодарский край, г. Геленджик
+                    p 3-й км Сухумского шоссе, промзона
+                    h3.contacts__title График работы 
+                    p пн-пт. с 9 до 18, сб. с 9 до 14
+                    p вс. выходной
+                    h3 Телефоны
+                    p Макеты, 3-резьба 8-800-111-111
+                    p Столярная мастерская 8-800-222-222
+                    p Строительство 8-800-333-333
+            h3 Не любите звонить - пишите. Мы читаем почту
+            form.contacts-form
+                label.contacts-name Ваше имя
+                input.contacts-input
+                label.contacts-mail Ваша почта
+                input.contacts-input
+                label.contacts-message Ваше сообщение
+                textarea.contacts-textarea
+                button.contacts-button Отправить
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADBkK0q02rT0ZN2wCEwIdTvmmHcG5AuP4&callback=initMap")

@@ -1,0 +1,67 @@
+body, html {
+  font-size: 16px;
+  box-sizing: border-box;
+  min-height: 100%;
+  position: relative;
+}
+body{
+    height:100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+}
+
+@mixin desktop{
+    @media screen and (max-width : 1200px){
+        @content;
+    }
+}
+@mixin laptop{
+    @media screen and (max-width : 992px){
+        @content;
+    }
+}
+@mixin tablets(){
+    @media screen and (max-width : 768px){
+        @content;
+    }
+}
+@mixin phones{
+    @media screen and (max-width : 480px){
+        @content;
+    }
+}
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@import 'common/mixins';
+@import 'common/header';
+@import 'common/sidebar';
+@import 'common/link-display';
+@import 'common/slider-index';
+@import 'common/footer';
+@import 'common/another';
+@import 'common/wood-craft';
+@import 'common/contacts';
+@import 'common/mobile-nav';
+@import 'common/wood-craft-inner';
+@import '../../bower_components/font-awesome/scss/font-awesome.scss';
+@import 'common/media';
+
+

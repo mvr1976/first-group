@@ -1,0 +1,44 @@
+extends ../_template
+
+block variables
+  - var title = 'version2.0'
+
+block content
+  div(class="parallax")
+    div(class="parallax__bg")
+        //- img(src="assets/img/parallax-bg1.jpg" alt="parallax")
+  div.wrapper-index
+      div.container-test
+        div.nav-top
+            div.nav-top__left.animated.bounceInLeft
+                div.nav-img-container
+                    img(src = "assets/img/carpentery.png")
+                a(href = 'wood-craft.html') Столярная мастерская
+            div.nav-top__right.animated.bounceInRight
+                div.nav-img-container
+                    img(src = "assets/img/construction.png")
+                a(href = 'wood-craft.html') Строительство
+        div.nav-mid
+            div.nav-mid__left.animated.bounceInLeft
+                div.nav-img-container.nav-img-mid
+                    img(src = "assets/img/maket.png")
+                a(href = 'wood-craft.html') Макеты для застройщиков
+            div.nav-mid__center first group
+                h1 Располагаем лучшие&nbspстройматериалы в&nbspлучшем&nbspпорядке
+
+            div.nav-mid__right.animated.bounceInRight
+                div.nav-img-container.nav-img-mid
+                    img(src = "assets/img/design.png")
+                a(href = '#') Дизайн интерьеров
+        div.nav-bot
+            div.nav-bot__left.animated.bounceInLeft
+                div.nav-img-container
+                a(href = '#') 3D резьба(дерево, металл)
+                //- div
+                //-     a(href = '#') 
+            div.nav-bot__right.animated.bounceInRight
+                div.nav-img-container
+                a(href = '#') Дизайнерские изделия              
+                    //- a(href = '#') 
+
+                    //- img(src = "assets/img/design-for-sale.png")
